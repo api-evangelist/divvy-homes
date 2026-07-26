@@ -1,8 +1,28 @@
 aid: divvy-homes
 name: Divvy Homes
-description: Divvy Homes is a company surfaced as a portfolio company of a16z, threshold-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Divvy Homes is a San Francisco-based proptech company operating a rent-to-own
+  home ownership program. A customer chooses a home on the open market, Divvy
+  purchases it, and the customer moves in as a renter while a portion of each
+  monthly payment builds toward a future down payment, giving aspiring buyers
+  who are not yet mortgage-ready a path toward eventual ownership. The consumer
+  web experience integrates third-party services such as Plaid for bank
+  connectivity and Stripe for payments, but Divvy exposes no public developer
+  API, developer portal, or API documentation surface of its own. This profile
+  was surfaced from venture-portfolio data (a16z, Threshold Ventures) and
+  enriched from Divvy's public consumer website only.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.divvyhomes.com/apple-touch-icon.png
 url: https://raw.githubusercontent.com/api-evangelist/divvy-homes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +31,18 @@ x-backed-by:
 - threshold-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-public-api: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Real Estate
+- Proptech
+- Rent-to-Own
+- Home Ownership
+- Fintech
+- Housing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,17 @@ maintainers:
 common:
 - type: Website
   url: https://www.divvyhomes.com/
+- type: HelpCenter
+  name: Frequently Asked Questions
+  url: https://www.divvyhomes.com/faq
+- type: PrivacyPolicy
+  url: https://www.divvyhomes.com/privacy
+- type: TermsOfService
+  url: https://www.divvyhomes.com/terms
+- type: DomainSecurity
+  url: security/divvy-homes-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
