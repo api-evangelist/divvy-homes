@@ -48,7 +48,7 @@ created: '2026-07-17'
 modified: '2026-07-18'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Rent-to-Own
 - Homeownership
@@ -62,6 +62,7 @@ tags_raw:
 - Home Ownership
 - Fintech
 - Housing
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
